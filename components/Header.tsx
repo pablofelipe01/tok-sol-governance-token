@@ -31,10 +31,10 @@ export const Header: React.FC = () => (
     justifyContent="space-between"
     alignItems="center"
     color="white"
-    bg="#0606f6"
+    // bg="#0606f6"
   >
     <HStack spacing={4}>
-      <Text fontSize="30px">Tok Sol Governance Token</Text>
+      {/* <Text fontSize="30px">Tok Sol Governance Token</Text> */}
     </HStack>
     <Box display={{ md: "block" }} flexBasis={{ base: "100%", md: "auto" }}>
       <HStack
@@ -44,7 +44,7 @@ export const Header: React.FC = () => (
         pt={[4, 4, 0, 0]}
       >
         <WalletMultiButton />
-        <WalletDisconnectButton />
+        {/* <WalletDisconnectButton /> */}
       </HStack>
     </Box>
   </Center>
