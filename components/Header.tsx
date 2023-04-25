@@ -30,11 +30,29 @@ export const Header: React.FC = () => (
     paddingY={2}
     justifyContent="space-between"
     alignItems="center"
-    color="white"
-    // bg="#0606f6"
+    color="Blue"
+    bg="#736a6a2e"
+    style={{
+      fontWeight: "bold",
+      fontSize: "15px",
+      fontFamily: "Arial, sans-serif",
+      padding: "5px 10px 20px 20px",
+     
+    }}
+    
   >
-    <HStack spacing={4}>
-      {/* <Text fontSize="30px">Tok Sol Governance Token</Text> */}
+  <a href="https://onramp.pokoapp.xyz/?apiKey=734c4a23-e256-46c4-b917-974f759a6aee&userId=poko_prod&cryptoList=SOL-solana,USDC-solana"  rel="noreferrer" target="_blank" style={{ 
+    display: "flex", 
+    alignItems: "space-between",
+    padding: "0px 10px 10px 10px",
+     }}>
+    {/* <h1 style={{ margin: "10px 10px 10px 10px" }}>Buy</h1> */}
+    <img src="https://i.imgur.com/qFIgwxW.png" alt="Sol" style={{ width: "250px" }} />
+  </a>
+
+    <HStack spacing={200}>
+
+      
     </HStack>
     <Box display={{ md: "block" }} flexBasis={{ base: "100%", md: "auto" }}>
       <HStack
@@ -42,9 +60,10 @@ export const Header: React.FC = () => (
         justify={["center", "space-between", "flex-end", "flex-end"]}
         direction={["column", "row", "row", "row"]}
         pt={[4, 4, 0, 0]}
+       
       >
-        <WalletMultiButton />
-        {/* <WalletDisconnectButton /> */}
+          <WalletMultiButton style={{ fontSize: "15px", padding: "10px 10px 10px 10px" }} />
+        
       </HStack>
     </Box>
   </Center>
