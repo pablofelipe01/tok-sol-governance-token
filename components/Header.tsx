@@ -26,17 +26,19 @@ const MenuItem: React.FC<IMenuItemProps> = ({
 export const Header: React.FC = () => (
   <Center
     w="full"
-    paddingX={14}
-    paddingY={2}
+    px={[10, 1]} // Adjust these values to add padding from left and right
+    py={2}
     justifyContent="space-between"
     alignItems="center"
+    
     color="Blue"
-    bg="#736a6a2e"
+    bg="#0505fb1c"
     style={{
       fontWeight: "bold",
       fontSize: "15px",
       fontFamily: "Arial, sans-serif",
-      padding: "5px 10px 20px 20px",
+      padding: "10px 10px 20px 20px",
+      borderRadius: "20px"
      
     }}
     
