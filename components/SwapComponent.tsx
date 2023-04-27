@@ -20,7 +20,7 @@ export function SwapComponent() {
 
         : <Image 
         src='https://i.imgur.com/WaamJV6.png'
-        alt='Governance Token'>
+        alt='VC Token'>
           </Image>
           
       }

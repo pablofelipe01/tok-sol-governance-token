@@ -32,7 +32,7 @@ export const Header: React.FC = () => (
     alignItems="center"
     
     color="Blue"
-    bg="#0505fb1c"
+    bg="#ffffff1c"
     style={{
       fontWeight: "bold",
       fontSize: "15px",
@@ -46,10 +46,10 @@ export const Header: React.FC = () => (
   <a href="https://onramp.pokoapp.xyz/?apiKey=734c4a23-e256-46c4-b917-974f759a6aee&userId=poko_prod&cryptoList=SOL-solana,USDC-solana"  rel="noreferrer" target="_blank" style={{ 
     display: "flex", 
     alignItems: "space-between",
-    padding: "0px 10px 10px 10px",
+    padding: "20px 10px 10px 10px",
      }}>
     {/* <h1 style={{ margin: "10px 10px 10px 10px" }}>Buy</h1> */}
-    <img src="https://i.imgur.com/qFIgwxW.png" alt="Sol" style={{ width: "250px" }} />
+    <img src="https://i.imgur.com/m1Ld8vi.png" alt="Sol" style={{ width: "150px" }} />
   </a>
 
     <HStack spacing={200}>
@@ -64,7 +64,25 @@ export const Header: React.FC = () => (
         pt={[4, 4, 0, 0]}
        
       >
-          <WalletMultiButton style={{ fontSize: "15px", padding: "10px 10px 10px 10px" }} />
+       
+
+          {/* <WalletMultiButton style={{ fontSize: "20px", padding: "10px 10px 10px 10px", color: 'orange', background: 'white', border: '1px solid orange', borderRadius: '50%',fontWeight: 'bold',
+          fontFamily: 'Arial, sans-serif' }} 
+          
+          /> */}
+          <WalletMultiButton style={{
+  width: '100px',
+  height: '100px',
+  padding: '10px',
+  background: 'white',
+  // border: '1px solid purple',
+  // borderRadius: '50%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center'
+}}>
+  <img src="https://i.imgur.com/d4TTFAz.png" alt="Your logo" style={{ maxWidth: '100%', maxHeight: '100%' }} />
+</WalletMultiButton>
         
       </HStack>
     </Box>
