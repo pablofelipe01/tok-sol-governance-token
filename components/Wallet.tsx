@@ -13,7 +13,7 @@ import {
   } from "@solana/wallet-adapter-wallets";
   import React, { FC, useMemo } from "react";
   
-  export const DEFAULT_ENDPOINT = "https://young-frequent-dew.solana-mainnet.discover.quiknode.pro/b44da91d54de9da418f9579d6fbed5cf8d3d787d/"
+  export const DEFAULT_ENDPOINT = "https://solana-mainnet.g.alchemy.com/v2/8jCDXke0Y2qi3CrqlAUsHWLm0mKsfKxd"
   
   // Default styles that can be overridden by your app
   require("@solana/wallet-adapter-react-ui/styles.css");
